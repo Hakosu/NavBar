@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Charger_rt.jpg);
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: hsl(0, 0%, 19%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+    
+}
+
+
+span{
+    color: hsl(0, 100%, 50%);
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+mav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a{
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: hsl(0, 92%, 53%);
+ 
+}
+button{
+    border: none;
+    background-color: hsl(0, 92%, 53%);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: aliceblue;
+    color: rgb(228, 10, 10);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: hsl(0, 100%, 50%);
+}
